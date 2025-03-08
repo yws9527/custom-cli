@@ -1,0 +1,23 @@
+{
+  "name": "custom-cli",
+  "version": "1.0.1",
+  "main": "index.js",
+  "type": "commonjs",
+  "bin": {
+    "custom-cli": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["node", "cli"],
+  "author": "ws",
+  "license": "ISC",
+  "description": "自定义cli脚手架",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^12.4.2",
+    "ora": "^5.4.1",
+    "picocolors": "^1.1.1"
+  }
+}
